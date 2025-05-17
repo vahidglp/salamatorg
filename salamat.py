@@ -2,34 +2,22 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-#st.markdown(
-#     """
-#     <style>
-#     html, body {
-#         direction: rtl;
-#         text-align: right;
-#     }
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-#)
-
-#st.markdown(
-#    """
-#    <style>
-#    @font-face {
-#        font-family: 'Vazir';
-#        src: url('Vazir-Regular.ttf') format('ttf');
-#    }
-#    html, body, [class*="css"] {
-#        font-family: 'Vazir', sans-serif;
-#        direction: rtl;
-#        text-align: right;
-#    }
-#    </style>
-#    """,
-#    unsafe_allow_html=True
-#)
+st.markdown(
+    """
+    <style>
+    @font-face {
+        font-family: 'Vazir';
+        src: url('Vazir-Regular.ttf') format('ttf');
+    }
+    html, body, [class*="css"] {
+        font-family: 'Vazir', sans-serif;
+        direction: rtl;
+        text-align: right;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title('لیست اسامی اعضا در سامانه سلامت ایرانیان')
 
