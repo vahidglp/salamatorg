@@ -4,10 +4,8 @@ import pandas as pd
 
 st.markdown(
      """
-     <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet" type="text/css">
      <style>
-     html, body, [class*="css"] {
-         font-family: 'Vazir', sans-serif;
+     html, body {
          direction: rtl;
          text-align: right;
      }
