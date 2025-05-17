@@ -2,17 +2,17 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.markdown(
-     """
-     <style>
-     html, body {
-         direction: rtl;
-         text-align: right;
-     }
-     </style>
-     """,
-     unsafe_allow_html=True
-)
+#st.markdown(
+#     """
+#     <style>
+#     html, body {
+#         direction: rtl;
+#         text-align: right;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True
+#)
 
 #st.markdown(
 #    """
